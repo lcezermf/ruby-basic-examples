@@ -1,0 +1,5 @@
+Extrato do dia : 24/10/12 19:30
+Cliente : Luiz Cezer
+Tipo de Conta : Cliente Comum
+Saldo Atual : 220.0
+------------------

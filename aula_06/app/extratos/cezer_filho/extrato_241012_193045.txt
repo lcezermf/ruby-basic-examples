@@ -1,0 +1,5 @@
+Extrato do dia : 24/10/12 19:30
+Cliente : Cezer Filho
+Tipo de Conta : Cliente Vip
+Saldo Atual : 200.0
+------------------
