@@ -1,0 +1,8 @@
+D, [2012-11-12T20:28:37.665977 #3932] DEBUG -- :   [1m[36m (127.9ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+D, [2012-11-12T20:28:37.922681 #3932] DEBUG -- :   [1m[35m (255.1ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+D, [2012-11-12T20:28:37.930624 #3932] DEBUG -- :   [1m[36m (1.8ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+I, [2012-11-12T20:28:37.930817 #3932]  INFO -- : Migrating to CreateCustomers (1)
+D, [2012-11-12T20:28:38.023053 #3932] DEBUG -- :   [1m[35m (85.2ms)[0m  CREATE TABLE `customers` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `phone` varchar(255), `age` int(11)) ENGINE=InnoDB
+D, [2012-11-12T20:28:38.067482 #3932] DEBUG -- :   [1m[36m (43.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('1')[0m
+D, [2012-11-12T20:40:56.688085 #4187] DEBUG -- :   [1m[36m (0.8ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+I, [2012-11-12T20:40:56.688191 #4187]  INFO -- : Migrating to CreateCustomers (1)
